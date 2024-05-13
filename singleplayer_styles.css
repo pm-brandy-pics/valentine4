@@ -1,0 +1,116 @@
+@keyframes shift-down {
+    from {margin-top: -400px ;}
+    to {margin-top: 0px;}
+}
+
+a {
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+    background-color: rgb(240, 250, 255);
+    display: inline-block;
+    width: 20px;
+}
+
+a:hover {
+    cursor: pointer;
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+
+p {
+    text-align: center;
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.satelliteimageslideshow-container {
+    align-content: center;
+}
+
+
+input[type = "text"] {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 15px;
+    width: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+ input[type = "submit"] {
+    font-family: "Montserrat", sans-serif;
+    background-color: whitesmoke;
+    font-weight:bolder;
+ }
+
+ input[type = "submit"]:hover {
+    cursor: pointer;
+    background-color: cornflowerblue;
+ }
+
+.answerpanel {
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    float: right;
+    height: 95vh;
+    width: 15vw;
+}
+
+.question1 , .question2, .question3, .question4, .question5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+.question1:hover , .question2:hover, .question3:hover, .question4:hover, .question5:hover{
+    cursor: pointer;
+    background-color: rgb(63, 63, 63);
+}
+
+.satelliteimage {
+    position: absolute;
+    display: inline-block;
+}
+
+.month {
+    animation-name: shift-down;
+    animation-duration: 2s;
+}
+h1 {
+    font-family: "Tangerine", serif;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 5px 5px rgb(0, 47, 255), 0 0 1em rgb(0, 26, 255), 0 0 1em grey;
+}
+
+p {
+    font-family: "Sacramento";
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-shadow: 3px 5px 5px rgb(0, 47, 255), 0 0 1em rgb(0, 26, 255), 0 0 1em grey;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding:0;
+    margin:0;
+    left: 0px;
+    top: 0px;
+    z-index: -1000;
+    overflow:hidden;
+    }
+
+.satelliteimage img {
+    border: 3px solid rgb(255, 255, 255);
+    margin-right: auto;
+    display: inline-block;
+}
+
+.satelliteimage video {
+    border: 3px solid rgb(255, 255, 255);
+}
