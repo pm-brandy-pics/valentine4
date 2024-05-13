@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "singleplayer_styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="satelliteimageslideshow-container">
+        <div class = "container">
+            <video autoplay muted loop id="background" style="position: absolute; z-index: 10;">
+                <source src="trees.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+        </div>
+        <div class="month" style="float: right; margin-right:35px;">
+            <h1 id = mon>December</h1>
+            <p style="width: 500px;">Love is an wonderful feeling. An individual with a caring heart is consistently prepared to help his love without thinking twice. Love is the need of each person since the day of birth. Love associates the two souls everlastingly and makes the world a beautiful spot for them. Without a doubt, love is divine.</p>
+
+        </div>
+
+        <div class="valentine" style="float: right; position:fixed; bottom:0px; right:40px;">
+            <h1 id = love style="color: black;">Where Love Meets Destiny!</h1>
+        </div>
+
+        <div class = "satelliteimage" id = 1>
+            <a class="prev" style="width: 40px; margin-left:20px; margin-right:0;" onclick="SlideChange(-1)">&#10094;</a>
+            <a class="next" style="width: 40px; margin-right:20px; margin-left:100px;" onclick="SlideChange(1)">&#10095;</a>
+            <img id = "sat1" style="width:37%; left:590px;">
+            
+            
+            <form id="form1" onsubmit="return false;">
+                <input style="position:static; top:97%; left:80%; width:40%;" type="submit" value="Click me to see hidden message"onclick="checkans();" />
+            </form>
+        </div>
+        <div class = "satelliteimage" id = 2>
+            <a class="prev" style="width: 40px; margin-left:20px; margin-right:0;" onclick="SlideChange(-1)">&#10094;</a>
+            <a class="next" style="width: 40px; margin-right:0px; margin-left:0;" onclick="SlideChange(1)">&#10095;</a>
+            <img id = "sat2" style="width:52%">
+            <form id="form2" onsubmit="return false;">
+                <input style="position:static; top:97%; left:80%; width:40%;" type="submit" value="Click me to see hidden message"onclick="checkans();" />
+            </form>
+        </div>
+        <div class = "satelliteimage" id = 3>
+            <a class="prev" style="width: 40px; margin-left:20px; margin-right:0;" onclick="SlideChange(-1)">&#10094;</a>
+            <a class="next" style="width: 40px; margin-right:20px; margin-left:100px;" onclick="SlideChange(1)">&#10095;</a>
+            <img id = "sat3" style="width:35%">
+            <form id="form3" onsubmit="return false;">
+                <input style="position:static; top:97%; left:80%; width:40%;" type="submit" value="Click me to see hidden message"onclick="checkans();" />
+            </form>
+        </div>
+        <div class = "satelliteimage" id = 4>
+            <a class="prev" style="width: 40px; margin-left:20px; margin-right:0;" onclick="SlideChange(-1)">&#10094;</a>
+            <a class="next" style="width: 40px; margin-right:0px; margin-left:100px;" onclick="SlideChange(1)">&#10095;</a>
+            <video loop muted id = "sat4" style="width:59%"></video>
+            <form id="form4" onsubmit="return false;">
+                <input style="position:static; top:97%; left:80%; width:50%;" type="submit" value="Click me to see hidden message"onclick="checkans();" />
+            </form>
+        </div>
+        <div class = "satelliteimage" id = 5>
+            <a class="prev" style="width: 40px; margin-left:20px; margin-right:0;" onclick="SlideChange(-1)">&#10094;</a>
+            <a class="next" style="width: 40px; margin-right:0px; margin-left:100px;" onclick="SlideChange(1)">&#10095;</a>
+            <video loop muted id = "sat5" style="width:59%"></video>
+            <form id="form5" onsubmit="return false;">
+                <input style="position:static; top:97%; left:80%; width:50%;" type="submit" value="Click me to see hidden message"onclick="checkans();" />
+            </form>
+        </div>
+        <div class = "satelliteimage" id = 6>
+            <a class="prev" style="width: 40px; margin-left:20px; margin-right:0;" onclick="SlideChange(-1)">&#10094;</a>
+            <a class="next" style="width: 40px; margin-right:0px; margin-left:100px;" onclick="SlideChange(1)">&#10095;</a>
+            <video loop muted id = "sat6" style="width:58%"></video>
+            <form id="form6" onsubmit="return false;">
+                <input style="position:static; top:97%; left:80%; width:40%;" type="submit" value="Click me to see hidden message"onclick="checkans();" />
+            </form>
+        </div>
+        <div class = "satelliteimage" id = 7>
+            <a class="prev" style="width: 40px; margin-left:20px; margin-right:0;" onclick="SlideChange(-1)">&#10094;</a>
+            <a class="next" style="width: 40px; margin-right:20px; margin-left:100px;" onclick="SlideChange(1)">&#10095;</a>
+            <img id = "sat7" style="width:35%">
+            <form id="form7" onsubmit="return false;">
+                <input style="position:static; top:97%; left:80%; width:40%;" type="submit" value="Click me to see hidden message"onclick="checkans();" />
+            </form>
+        </div>
+        <div class = "satelliteimage" id = 8>
+            <a class="prev" style="width: 40px; margin-left:20px; margin-right:0;" onclick="SlideChange(-1)">&#10094;</a>
+            <a class="next" style="width: 40px; margin-right:20px; margin-left:100px;" onclick="SlideChange(1)">&#10095;</a>
+            <img id = "sat8" style="width:28%">
+            <form id="form8" onsubmit="return false;">
+                <input style="position:static; top:97%; left:80%; width:40%;" type="submit" value="Click me to see hidden message"onclick="checkans();" />
+            </form>
+        </div>
+        <div class = "satelliteimage" id = 9>
+            <a class="prev" style="width: 40px; margin-left:20px; margin-right:0;" onclick="SlideChange(-1)">&#10094;</a>
+            <a class="next" style="width: 40px; margin-right:0px; margin-left:0;" onclick="SlideChange(1)">&#10095;</a>
+            <img id = "sat9" style="width:50%">
+            <form id="form9" onsubmit="return false;">
+                <input style="position:static; top:97%; left:80%; width:40%;" type="submit" value="Click me to see hidden message"onclick="checkans();" />
+            </form>
+        </div>
+        <div class = "satelliteimage" id = 10>
+            <a class="prev" style="width: 40px; margin-left:20px; margin-right:0;" onclick="SlideChange(-1)">&#10094;</a>
+            <a class="next" style="width: 40px; margin-right:0px; margin-left:100px;" onclick="SlideChange(1)">&#10095;</a>
+            <video loop muted id = "sat10" style="width:48%"></video>
+            <form id="form10" onsubmit="return false;">
+                <input style="position:static; top:97%; left:80%; width:40%;" type="submit" value="Click me to see hidden message"onclick="checkans();" />
+            </form>
+        </div>
+        <div class = "satelliteimage" id = 11>
+            <a class="prev" style="width: 40px; margin-left:20px; margin-right:0;" onclick="SlideChange(-1)">&#10094;</a>
+            <a class="next" style="width: 40px; margin-right:0px; margin-left:0;" onclick="SlideChange(1)">&#10095;</a>
+            <img id = "sat11" style="width:50%">
+            <form id="form11" onsubmit="return false;">
+                <input style="position:static; top:97%; left:80%; width:40%;" type="submit" value="Click me to see hidden message"onclick="checkans();" />
+            </form>
+        </div>
+        <div class = "satelliteimage" id = 12>
+            <a class="prev" style="width: 40px; margin-left:20px; margin-right:0;" onclick="SlideChange(-1)">&#10094;</a>
+            <a class="next" style="width: 40px; margin-right:0px; margin-left:100px;" onclick="SlideChange(1)">&#10095;</a>
+            <img id = "sat12" style="width:36%">
+            <form id="form12" onsubmit="return false;">
+                <input style="position:static; top:97%; left:80%; width:40%;" type="submit" value="Click me to see hidden message"onclick="checkans();" />
+            </form>
+        </div>
+        <div style = "left:90px; top:180px;" class = "satelliteimage" id = 12>
+
+            <h1 style="width:750px; font-size:50px;">That was just the 1st chapter, there's a lot more yet to come, ofcourse with the help of you dear❤️</h1>
+        </div>
+        
+    </div>
+    
+    <script src = "singleplayer.js"></script>
+</body>
+</html>
